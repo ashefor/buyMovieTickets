@@ -1,0 +1,401 @@
+
+.overlay{
+    height: 100%;
+    background: #f3f6ff
+}
+.homepagenav{
+    // margin-top: 50px;
+    background: transparent !important;
+    padding: 20px
+}
+.homepage_nav{
+    display: flex;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.homepage_nav_goHome{
+    // padding: 25px;
+    // margin-top: auto;
+    // margin-bottom: auto;
+}
+.homepage_nav_goHome a{
+    display: block;
+  color: black;
+//   text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+.homepage_nav_goHome a span{
+    font-weight: 900
+}
+.homepage_nav_links{
+    margin-left: auto;
+    // padding: 25px
+}
+.homepage_nav_links ul{
+    // display: inline-flex;
+    // padding: 25px
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    // background-color: #333333;
+}
+.homepage_nav_links ul li{
+    // padding: 25px
+    float: left;
+}
+.homepage_nav_links ul li a{
+    display: block;
+  color: black;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+}
+.homepage_movie{
+    display: flex;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background: transparent !important;
+    // position: absolute;
+    top: 10%;
+    left: 0;
+    right: 0;
+    margin-bottom: 5.5rem !important;
+    margin-top: 1.5rem !important
+}
+.homepage_movie_details{
+    width: 100%;
+    position: relative;
+}
+.homepage_movie_img{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.homepage_movie_img img{
+    width: 550px;
+    height: 750px;
+    transition: width 2s;
+    transition: height 4s;
+    box-shadow: 0px 24px 48px -13px rgba(0, 0, 0, 0.5);
+    // padding: 50px;
+}
+
+.homepage_movie_details_title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: contents;
+}
+.homepage_movie_details_title h4{
+    font-size: 70px;
+    font-family: 'Montserrat', sans-serif;
+}
+.homepage_movie_details_title h4 span{
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+.homepage_movie_details_buy_tickets a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    background: green;
+    border-radius: 10px;
+    border: 1px solid black;
+    outline: none;
+}
+.about_movie{
+    display: flex;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.about_movie_details{
+    width: 100%
+}
+.about_movie_image{
+    width: 100%
+}
+.pricing{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pricing_area{
+    justify-content: center;
+    margin-bottom: 1.5rem !important;
+    margin-top: 1.5rem !important
+}
+.pricing_plans{
+    text-align: center
+}
+.pricing_plans h2{
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize
+}
+.ticketing{
+    display: flex;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ticket_prices{
+    padding: 30px;
+    background: #fff;
+    // margin: auto
+}
+.ticket_prices_section{
+    text-align: center;
+}
+.tickets{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    line-height: 1.8;
+    margin-bottom: 3rem !important;
+}
+.ticket_prices_section ul{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 3rem !important;
+}
+.ticket_prices_section ul li{
+    list-style: none;
+    margin-bottom: 15px;
+    color: #4d4d4d;
+    font-family: 'Montserrat', sans-serif;
+}
+.ticket_prices_section a{
+    background: #6b76ff !important;
+    border: 1px solid #6b76ff !important;
+    color: #fff !important;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 3px;
+}
+.price{
+    display: block
+}
+.price sup{
+    font-size: 24px;
+    top: -1em;
+    color: #6b76ff;
+}
+.per_movie{
+    margin-bottom: 20px;
+    color: #999999;
+    font-family: 'Montserrat', sans-serif;
+}
+.ticket_prices_section .heading{
+    font-size: 14px;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    font-weight: 900;
+    margin-bottom: 10px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+.ticket_amount{
+    font-size: 50px;
+    font-weight: 900;
+    color: #6b76ff;
+    font-family: 'Cute Font', cursive;
+}
+.ticket_prices_section .heading_2{
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 1.5rem !important;
+    margin-top: 1.5rem !important;
+}
+.newsletter_subscribe{
+    background:#6b76ff;
+    padding: 4em 0;
+}
+.newsletter_subscribe_contents{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.newsletter_details{
+    align-items: center
+}
+.newsletter_details_header{
+    justify-content: center;
+    text-align: center;
+}
+.subscribe_input{
+    background: white !important;
+    border: 1px solid transparent;
+    color: rgba(0, 0, 0, 0.7) !important;
+    font-size: 20px;
+    border-radius: 5px 0px 0px 5px;
+    padding: 15px 0 15px 15px;
+    // padding: 0.375rem 0.75rem;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    // height: 52px;
+}
+.subscribe_input::placeholder{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.subscribe_submit{
+    padding: 15px;
+    // padding: 0.375rem 0.75rem;
+    font-size: 16px;
+    color: #fff !important;
+    background: #3847ff !important;
+    border-radius: 0px 5px 5px 0px;
+    font-size: 16px;
+    border: 1px solid transparent;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    font-family: 'Montserrat', sans-serif;
+}
+.newsletter_details_header h2{
+    font-size: 45px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+.newsletter_details_header form{
+    max-width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.newsletter_form{
+    margin-bottom: 1.5rem !important;
+    margin-top: 1.5rem !important;
+}
+.newletter_form_inputs{
+    display: flex;
+}
+footer{
+    font-size: 16px;
+    background: #222831;
+    padding: 7em 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.footer_container{
+    max-width: 1200px;
+    margin-left:auto;
+    margin-right: auto;
+}
+.footer_container_containers{
+    display: flex;
+    margin-bottom: 3rem !important;
+}
+.footer_container_cols{
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.footer-widget{
+    margin-bottom: 1.5rem !important;
+}
+.footer_widget_heading{
+    color: #fff;
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 0;
+}
+.footer-widget p{
+    color: white;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.social_media{
+    margin-top: 3rem !important;
+    padding-left: 0;
+}
+.social_media li{
+    list-style: none;
+    margin: 0 10px 0 0;
+    display: inline-block;
+}
+.social_media li a{
+    height: 50px;
+    width: 50px;
+    display: block;
+    float: left;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 50%;
+    position: relative;
+}
+.social_media li a i{
+    color: white;
+    position: absolute;
+    font-size: 26px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.privacy_policy{
+    padding-left: 0;
+    list-style: none;
+}
+.privacy_policy a{
+    padding-bottom: 0.5rem !important;
+    padding-top: 0.5rem !important;
+    text-decoration: none;
+    background-color: transparent;
+    display: block !important;
+    color: white
+}
+.privacy_policy a:hover{
+    color: wheat
+}
+.talk_to_us_container{
+    padding-left: 0;
+    // list-style: none;
+}
+.talk_to_us_container li{
+    display: table;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    color: white;
+}
+.icon{
+    width: 40px;
+    font-size: 18px;
+    padding-top: 2px;
+    color: white;
+    display: table-cell;
+    vertical-align: top;
+}
+.icon-text{
+    display: table-cell;
+    vertical-align: top;
+}
+.talk_to_us_container li a{
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+}
+.talk_to_us_container li a:hover{
+    color: wheat;
+    
+}
