@@ -4,21 +4,27 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule, routeComponents } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
-import { AngularRaveModule } from 'angular-rave';
 
+import { PaystackService } from './paystack.service';
+import { HttpClientModule } from '@angular/common/http';
+import { DropdownDirective } from './dropdown.directive';
+import { TestingComponent } from './components/testing/testing.component';
+// import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     routeComponents,
-    AngularRaveModule
+    DropdownDirective,
+    TestingComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [PaystackService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
